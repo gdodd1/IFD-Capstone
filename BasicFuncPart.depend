@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1596579957 source:/home/skilet1/teaching/8.2022Spring/CS355/Projects/IFProject1/BasicFuncPart/main.cpp
+	"Game.h"
+
+1641573746 /home/skilet1/teaching/8.2022Spring/CS355/Projects/IFProject1/BasicFuncPart/Game.h
+	"Map.h"
+	"Player.h"
+
+1642172442 /home/skilet1/teaching/8.2022Spring/CS355/Projects/IFProject1/BasicFuncPart/Map.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+	"IFDParser.h"
+	"LinkData.h"
+	"Area.h"
+
+1642172101 /home/skilet1/teaching/8.2022Spring/CS355/Projects/IFProject1/BasicFuncPart/IFDParser.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+
+1523376396 /home/skilet1/teaching/8.2022Spring/CS355/Projects/IFProject1/BasicFuncPart/LinkData.h
+	<iostream>
+
+1596580351 /home/skilet1/teaching/8.2022Spring/CS355/Projects/IFProject1/BasicFuncPart/Area.h
+	<string>
+	<iostream>
+
+1642172184 /home/skilet1/teaching/8.2022Spring/CS355/Projects/IFProject1/BasicFuncPart/Player.h
+
+1645633632 source:c:\users\ssingh21\desktop\ifdproject2\main.cpp
+	"Game.h"
+
+1645633631 c:\users\ssingh21\desktop\ifdproject2\game.h
+	"MapV2.h"
+	"Player.h"
+	"ull.h"
+	"Item.h"
+
+1645633631 c:\users\ssingh21\desktop\ifdproject2\map.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+	"IFDParser.h"
+	"LinkData.h"
+	"Area.h"
+
+1645633631 c:\users\ssingh21\desktop\ifdproject2\ifdparser.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+
+1645633631 c:\users\ssingh21\desktop\ifdproject2\linkdata.h
+	<iostream>
+
+1645633631 c:\users\ssingh21\desktop\ifdproject2\area.h
+	<string>
+	<iostream>
+	"Item.h"
+	"ull.h"
+
+1645633631 c:\users\ssingh21\desktop\ifdproject2\item.h
+	<iostream>
+
+1645633632 c:\users\ssingh21\desktop\ifdproject2\ull.h
+	<iostream>
+	<cassert>
+
+1645633631 c:\users\ssingh21\desktop\ifdproject2\player.h
+
+1644431964 c:\users\ssingh21\desktop\ifdproject2\areanode.h
+
+1645633631 c:\users\ssingh21\desktop\ifdproject2\mapv2.h
+	<iostream>
+	"Map.h"
+	"Player.h"
+

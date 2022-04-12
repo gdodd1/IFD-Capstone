@@ -1,0 +1,140 @@
+<game>
+    <ptype>hsps</ptype>
+    <lives>3</lives>
+
+    <links>
+        <linkset>2,1,3,4</linkset>
+        <linkset>2,1,2,2</linkset>
+        <linkset>6,3,7,1</linkset>
+        <linkset>4,4,1,4</linkset>
+        <linkset>5,5,5,5</linkset>
+        <linkset>6,3,6,2</linkset>
+        <linkset>7,7,7,7</linkset>
+        <linkset>9,6,8,10</linkset>
+        <linkset>9,9,9,9</linkset>
+        <linkset>10,10,10,10</linkset>
+        <linkset>11,11,9,10</linkset>
+    </links>
+
+    <item>
+        <armor>
+            <name>Chestplate</name>
+            <life>50</life>
+            <star>1</star>
+        </armor>
+    </item>
+    %Area 1 - Armor
+    <area>
+        <desc>You're dropped into a jungle terrain with a path to your right, left, and infront of you.</desc>
+        <feats>0,0</feats>
+    </area>
+
+    %Torch in Area 1
+    <item>
+        <use>
+            <name>Torch</name>
+            <desc>A torch that can be used to light the way.</desc>
+            <star>2</star>
+            <actmess>You can now see the paths infront of you</actmess>
+            <actar>2</actar>
+            <rule>2,u,5</rule>
+            <rule>2,l,6</rule>
+        </use>
+    </item>
+
+    %Area 2 - Need to use the Torch to change links
+    <area>
+        <desc>It's a long dark path with a torch stuck onto a tree.</desc>
+        <feats>0,0</feats>
+    </area>
+
+    %Berries in Area 3
+    <item>
+        <consume>
+            <name>Berries</name>
+            <desc>A bunch of berries that are growing on a bush.</desc>
+            <star>3</star>
+            <actmess>Ew! The berries taste sour and you start to feel sick.</actmess>
+            <actar>0</actar>
+            <effect>0,20</effect>
+        </consume>
+    </item>
+
+    %Area 3 - Leads to the swamp path - berries
+    <area>
+        <desc>You walked into a swamp. You can continue forward into the swamp, or go left toward a village.</desc>
+        <feats>0,0</feats>
+    </area>
+
+    %Area 4
+    <item>
+        <use>
+            <name>Umbrella</name>
+            <desc>An umbrella that can be used to protect yourself from the rain.</desc>
+            <star>4</star>
+            <actar>0</actar>
+            <actmess>You're protected from the rain, but it seems the umbrella makes you fall to the ground really slow</actmess>
+            <rule>2,u,11</rule>
+        </use>
+    </item>
+
+    %Area 4 - Leads to the dead path - Has the umbrella
+    <area>
+        <desc>You walked into a dead end. The jungle is too thick to continue</desc>
+        <feats>0,0</feats>
+    </area>
+
+    %Area 5 - Cliff
+    <area>
+        <desc>You fell off the cliff and died.</desc>
+        <feats>1,0</feats>
+    </area>
+
+    %Vines - Use to go to area 8 from area 6
+    <item>
+        <use>
+            <name>Vines</name>
+            <desc>A bunch of vines that lead to a path.</desc>
+            <star>5</star>
+            <actmess>You can use the vines to swing to the next path</actmess>
+            <actar>6</actar>
+            <rule>6,u,8</rule>
+        </use>
+    </item>
+
+    %Area 6 - Leads to the vines
+    <area>
+        <desc>The edge of a cliff is on your right and vines hanging leading to the path ahead of you.</desc>
+        <feats>0,0</feats>
+    </area>
+
+    %Area 7 - Quicksand, room used to show teleport()
+    <area>
+        <desc>You went too far into the swamp and are sinking slowly. If only you could teleport out somehow.</desc>
+        <feats>0,0</feats>
+    </area>
+
+    %Area 8
+    <area>
+        <desc>The path is beginning to get brighter, two paths emerge - one straight ahead and one to the right</desc>
+        <feats>0,0</feats>
+    </area>
+
+    %Area 9
+    <area>
+        <desc>Ahhh! You were the breakfast of a hungry lion.</desc>
+        <feats>1,0</feats>
+    </area>
+
+    %Area 10
+    <area>
+        <desc>You made it out of the jungle. The sun is shining and you hear birds chirping. Ahead is a ship that will take you home.</desc>
+        <feats>0,0</feats>
+    </area>
+
+    %Area 11
+    <area>
+        <desc>The umbrella safely got you down to the bottom of the cliff - you see clearings to the left and right - choose wisely.</desc>
+        <feats>0,0</feats>
+    </area>
+</game>

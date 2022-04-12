@@ -1,0 +1,11 @@
+
+1/28/21 
+Created Folder In CS355 Repo - Initially Copied Submission From Project 1
+Created and finished Item.h
+Created MapV2.h - No Work Done
+Started Area.search() - Got Stuck At Navigating The ULL And Getting The Area Number
+Uploaded Dr. Ray's ull.h file
+
+- Garrett
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+

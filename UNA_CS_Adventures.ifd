@@ -1,0 +1,124 @@
+%IFD Game by: Garrett Dodd
+%24 January 2022
+
+%Setting is Keller Hall
+
+<game>
+
+	<links>
+		<linkset>1,1,1,2</linkset>
+		<linkset>3,2,1,4</linkset>
+		<linkset>3,2,3,5</linkset>
+		<linkset>4,4,4,4</linkset>
+		<linkset>5,4,3,6</linkset>
+		<linkset>6,7,5,6</linkset>
+		<linkset>6,9,7,8</linkset>
+		<linkset>8,8,7,8</linkset>
+		<linkset>9,9,9,9</linkset>
+	</links>
+
+%AREA1
+	<area>
+		<desc>Welcome to The Adventures of CS Students
+You arrived at the entrance of Keller Hall. You see your laptop sitting infront of you.
+		</desc>
+		<feats>0,0</feats>
+	</area>
+
+%AREA2
+	<area>
+		<desc>Enter Keller 241. It’s covered in puns about Computer Science and Math. You see a USB drive on the floor.
+		</desc>
+		<feats>0,0</feats>
+	</area>
+
+%AREA 3
+	<area>
+		<desc>Keller Hall hallway. You can faintly hear crying in the distance...
+		</desc>
+		<feats>0,0</feats>
+	</area>
+
+%AREA 4
+	<area>
+		<desc>You found the crying student. They seem to be saying something about... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		... recursion? 
+		</desc>
+		<feats>1,0</feats>
+	</area>
+
+%AREA 5
+	<area>
+		<desc>The crying has got louder. It's very close to you.
+		</desc>
+		<feats>0,0</feats>
+	</area>
+
+%AREA 6
+	<area>
+		<desc>You went into another office, Keller 238, avoiding the crying... This is odd... Who's office is this?
+		AH!
+		Dr. Jenkins screamed "RECURSION! BST! LINKED LISTS"
+		You felt the pain of her students through her voice...
+		</desc>
+		<feats>0,0</feats>
+	</area>
+
+%AREA 7
+	<area>
+		<desc>Oh wait, you have class today. It's Tuesday, so you have CS 315 and 355. Better hurry.
+		</desc>
+		<feats>0,0</feats>
+	</area>
+
+%AREA 8
+	<area>
+		<desc>Dr. Herath greets you as you enter CS 315. An hour late. It's 11:30. 
+		You need to find Dr. Ray's classroom quick.
+		</desc>
+		<feats>0,0</feats>
+	</area>
+
+%AREA 9
+	<area>
+		<desc>Finally. You were right on time to CS 355. Dr. Ray is pleased you finally showed up to class.
+		</desc>
+		<feats>0,1</feats>
+	</area>
+
+</game>
